@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"outDir": "dist",
+		"strict": true,
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"jsx": "react",
+		// for material ui
+		"lib": ["es6", "dom"],
+		"noImplicitAny": true,
+		// "noImplicitAny": false,
+		"noImplicitThis": true,
+		"strictNullChecks": true
+	},
+	"include": ["source/js"],
+	"exclude": ["node_modules"]
+}
